@@ -51,8 +51,8 @@ def checkPagination(soup):
     return pagination
 
 #declaration of the initial parameters
-urlpage =  'http://nddcproject.nddc.gov.ng/stateprojects.aspx?sid=33'
-file_title = 'Rivers.csv'
+urlpage =  'the url of the first page of the projects you are trying to scrape'
+file_title = 'name_of_the_to_save_results_to.csv'
 hasNext = True
 pagination = []
 count = 1
